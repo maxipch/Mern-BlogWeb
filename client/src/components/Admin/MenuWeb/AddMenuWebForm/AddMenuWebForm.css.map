@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,CAAA;EACd,UAAU,EAAE,MAAM;CAUrB;;AAXD,AAGI,kBAHc,CAGd,cAAc,CAAC;EACX,MAAM,EAAE,KAAK;CAChB;;AALL,AAOI,kBAPc,CAOd,WAAW,CAAA;EACP,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "AddMenuWebForm.scss",
+        "../../../../scss/index.scss",
+        "../../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "AddMenuWebForm.css"
+}

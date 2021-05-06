@@ -1,0 +1,8 @@
+.admin-sider {
+  position: fixed;
+  left: 0;
+  overflow: auto;
+  height: 100vh;
+  top: 65px;
+}
+/*# sourceMappingURL=MenuSider.css.map */

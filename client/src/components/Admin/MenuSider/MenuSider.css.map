@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,YAAY,CAAA;EACR,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;EACP,QAAQ,EAAE,IAAI;EACd,MAAM,EAAE,KAAK;EACb,GAAG,EAAC,IAER;CAAC",
+    "sources": [
+        "MenuSider.scss",
+        "../../../scss/index.scss",
+        "../../../scss/_variables.scss",
+        "../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "MenuSider.css"
+}

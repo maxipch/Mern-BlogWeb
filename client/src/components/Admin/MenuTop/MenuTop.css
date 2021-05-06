@@ -1,0 +1,29 @@
+.menu-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-top button {
+  background-color: transparent;
+  color: #fff;
+}
+
+.menu-top button:hover {
+  color: #0098d3;
+}
+
+.menu-top button:focus, .menu-top button:active {
+  color: #fff;
+}
+
+.menu-top__left-logo {
+  width: 210px;
+  padding: 0 10px;
+}
+
+.menu-top__right {
+  position: absolute;
+  right: 0;
+}
+/*# sourceMappingURL=MenuTop.css.map */

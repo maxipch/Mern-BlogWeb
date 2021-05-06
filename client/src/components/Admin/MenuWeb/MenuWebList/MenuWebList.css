@@ -1,0 +1,49 @@
+.menu-web-list__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.menu-web-list__items {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.menu-web-list .List {
+  position: relative;
+}
+
+.menu-web-list .List .draggable {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-web-list .List .draggable:hover {
+  cursor: pointer;
+}
+
+.menu-web-list .List .draggable.dragged {
+  border: 1px solid #e2e2e2;
+  padding: 0 10px;
+}
+
+.menu-web-list .ant-list-item-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-web-list .ant-list-item-action-split {
+  background-color: #909090;
+}
+/*# sourceMappingURL=MenuWebList.css.map */

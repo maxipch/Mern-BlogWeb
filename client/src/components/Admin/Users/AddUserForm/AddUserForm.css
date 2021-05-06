@@ -1,0 +1,12 @@
+.add-user-form .ant-form-item {
+  margin: 10px 0px;
+}
+
+.add-user-form .ant-input-affix-wrapper > input.ant-input {
+  margin-left: 5px;
+}
+
+.add-user-form .btn-submit {
+  width: 100%;
+}
+/*# sourceMappingURL=AddUserForm.css.map */

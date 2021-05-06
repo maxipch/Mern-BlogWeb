@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "EditMenuWebForm.scss",
+        "../../../../scss/index.scss",
+        "../../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "EditMenuWebForm.css"
+}

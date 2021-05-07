@@ -1,4 +1,4 @@
-.menu-top {
+.menu-top-web {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -12,23 +12,23 @@
           align-items: center;
 }
 
-.menu-top li {
+.menu-top-web li {
   border: 0 !important;
 }
 
-.menu-top li a {
+.menu-top-web li a {
   color: #fff !important;
 }
 
-.menu-top li a:hover {
+.menu-top-web li a:hover {
   color: #0098d3 !important;
 }
 
-.menu-top__logo {
+.menu-top-web__logo {
   padding: 10px;
 }
 
-.menu-top__logo img {
+.menu-top-web__logo img {
   width: 200px;
   margin: 10px 0;
 }

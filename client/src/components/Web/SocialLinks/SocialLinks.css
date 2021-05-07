@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=SocialLinks.css.map */
+.social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.social-link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+  padding: 6px 9px;
+  border-radius: 20px;
+}
+
+.social-link a.youtube {
+  background-color: #cd201f;
+}
+
+.social-link a.twitter {
+  background-color: #1da1f2;
+}
+
+.social-link a.facebook {
+  background-color: #3b5998;
+}
+
+.social-link a.linkedin {
+  background-color: #0077b5;
+}
+
+.social-link a svg {
+  width: 15px;
+  height: 20px;
+}
+/*# sourceMappingURL=SocialLinks.css.map */

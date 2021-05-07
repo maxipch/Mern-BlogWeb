@@ -1,5 +1,15 @@
 @import "../../../../scss/index.scss";
 
 .edit-menu-web-form{
-    
+    .form-edit{
+        text-align: center;
+    }
+    .ant-form-item{
+        margin: 15px 0;
+    }
+
+    .btn-submit{
+        width: 100%;
+    }
 }
+

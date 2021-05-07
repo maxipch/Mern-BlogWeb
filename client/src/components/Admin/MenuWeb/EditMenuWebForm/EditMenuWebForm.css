@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=EditMenuWebForm.css.map */
+.edit-menu-web-form .form-edit {
+  text-align: center;
+}
+
+.edit-menu-web-form .ant-form-item {
+  margin: 15px 0;
+}
+
+.edit-menu-web-form .btn-submit {
+  width: 100%;
+}
+/*# sourceMappingURL=EditMenuWebForm.css.map */

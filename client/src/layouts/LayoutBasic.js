@@ -7,19 +7,22 @@ import MenuTop from "../components/Web/MenuTop";
 import "./LayoutAdmin.css";
 
 export default function LayoutBasic(props){
-    const routes = props;
-    const { Footer } = Layout;
+     const routes = props;
+     const { Footer } = Layout;
 
-    return (
-        <Row>
-            <Col md={4}/>
-            <Col md={16}>
-                <MenuTop/>
-                <LoadRoutes routes={routes.routes} />
-                <Footer>Maximiliano Gordillo</Footer>
-            </Col>
-            <Col md={4}/>
-        </Row>
+    return ( 
+     <>
+         <Row>
+             <Col/>
+                <Col className="layout-basic__menu">
+                    <MenuTop/>
+                </Col>
+             <Col/>
+         </Row>
+            <LoadRoutes routes={routes.routes} />
+            <Footer>Maximiliano Gordillo</Footer>
+     </>
+
     );
 }
 

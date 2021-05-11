@@ -1,0 +1,26 @@
+.how-my-courses-works {
+  margin: 50px 0;
+}
+
+.how-my-courses-works .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.how-my-courses-works__title {
+  text-align: center;
+  line-height: 0.7;
+  margin-bottom: 40px;
+}
+
+.how-my-courses-works h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.how-my-courses-works h3 {
+  color: #c8c8c8;
+}
+/*# sourceMappingURL=HowMyCoursesWorks.css.map */

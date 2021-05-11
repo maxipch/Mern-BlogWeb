@@ -1,0 +1,27 @@
+@import "../../../scss/index.scss";
+
+.how-my-courses-works{
+    margin: 50px 0;
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__title{
+        text-align: center;
+        line-height: 0.7;
+        margin-bottom: 40px;
+    }
+
+    h2{
+        color: $font-light;
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    h3{
+        color: rgb(200, 200, 200);
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,qBAAqB,CAAA;EACjB,MAAM,EAAE,MAAM;CAuBjB;;AAxBD,AAGI,qBAHiB,CAGjB,UAAU,CAAA;EACN,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CACjB;;AAEA,AAAD,4BAAQ,CAAA;EACJ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI;CACtB;;AAZL,AAcI,qBAdiB,CAcjB,EAAE,CAAA;EACE,KAAK,EERA,IAAI;EFST,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;CAC5B;;AAnBL,AAqBI,qBArBiB,CAqBjB,EAAE,CAAA;EACE,KAAK,EAAE,OAAkB;CAC5B",
+    "sources": [
+        "HowMyCoursesWorks.scss",
+        "../../../scss/index.scss",
+        "../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "HowMyCoursesWorks.css"
+}

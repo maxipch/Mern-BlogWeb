@@ -18,9 +18,9 @@ export default function MenuTop(){
             })
             setMenuData(arrayMenu);
         })
-    }, []);
+    }, []); 
     return (
-        <Menu className="menu-top-web" mode="horizontal">
+        <Menu className="menu-top-web">
             <Menu.Item className="menu-top-web__logo">
                 <Link to={"/"}>
                     <img src={Logo} alt="Logo"/>
@@ -32,20 +32,20 @@ export default function MenuTop(){
 
                 if(external){
                     return (
-                        <Menu.Item key={item._id} className="menu-top-web__item">
-                            <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a>
-                        </Menu.Item>
+                            <Menu.Item key={item._id} className="menu-top-web__item">
+                                <a href={item.url} target="_blank" rel="noreferrer">{item.title}</a>
+                            </Menu.Item>
                     );
                 }
 
                 return(
                     <Menu.Item key={item._id} className="menu-top-web__item">
                         <Link to={item.url}>{item.title}</Link>
-                    </Menu.Item>
+                    </Menu.Item>  
                 );
             })}
 
-            <SocialLinks/>
+        <SocialLinks className="menu-top-web__item"/>
         </Menu>
     );  
 }

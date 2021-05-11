@@ -1,18 +1,58 @@
 @import "../../../scss/index.scss";
-
+.ant-row {flex-flow: column;}
 .menu-top-web{
+    margin-top: 15px;
     position: sticky;
-    top: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
     background: transparent;
     border: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    .social-link{
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    
+    @media (min-width: 748px){
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .social-link{
+            max-width: 200px;
+            align-items: center;
+            margin: 0;
+            justify-content: flex-end;
+        }
+
+        &__logo{
+            margin-right: 100px;
+        }
+        img{
+            width: 180px !important;
+        }
+    }
+
+    @media (min-width: 440px){
+        flex-direction: row;
+        justify-content: space-evenly;
+        li{
+            a{
+                justify-content: space-evenly;
+                margin-right:20px ;
+            }
+        }
+    }
+
 
     li{
         border: 0 !important;
 
         a{
             color: #fff !important;
+            font-weight: 600;
             
             &:hover{
                 color: $primary-color !important;
@@ -21,11 +61,11 @@
     }
 
     &__logo{
-        padding: 10px;
+        padding: 15px;
 
         img{
-            width: 200px ;
-            margin: 10px 0;
+            width: 165px ;
+            margin: 0 auto;
         }
     }
 }

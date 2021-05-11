@@ -1,0 +1,105 @@
+.home-courses {
+  margin: 50px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-courses__title {
+  text-align: center;
+}
+
+.home-courses__title h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.home-courses__card {
+  border: 0;
+  background-color: #1a2734;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.home-courses__card .ant-card-body {
+  text-align: center;
+}
+
+.home-courses__card .ant-card-body .ant-card-meta-title,
+.home-courses__card .ant-card-body .ant-card-meta-description {
+  color: #fff;
+}
+
+.home-courses__card .ant-card-body .ant-card-meta-title {
+  font-weight: bold;
+}
+
+.home-courses__card .ant-card-actions {
+  background-color: transparent;
+  border: 0;
+}
+
+.home-courses__card .ant-card-actions button {
+  width: 90%;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #0098d3;
+}
+
+.home-courses__more {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.home-courses__more button {
+  background-color: #0098d3;
+  border: 0;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.home-courses__more button:hover {
+  background-color: #0280b3;
+  color: #fff;
+}
+
+.home-courses .row-courses {
+  display: -ms-grid !important;
+  display: grid !important;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+  padding: 20px !important;
+}
+
+@media (min-width: 440px) {
+  .home-courses .row-courses {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-courses .row-courses {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.home-courses .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=HomeCourses.css.map */

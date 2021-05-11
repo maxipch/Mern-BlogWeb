@@ -5,13 +5,32 @@
 
     .container{
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 
     &__title{
         text-align: center;
         line-height: 0.7;
         margin-bottom: 40px;
+    }
+     
+    .row-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+        align-items: center;
+        margin-bottom: 50px !important;
+        padding: 20px !important;
+
+        @media(min-width: 440px){
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        @media(min-width: 1024px){
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        
     }
 
     h2{
@@ -23,5 +42,42 @@
 
     h3{
         color: rgb(200, 200, 200);
+    }
+}
+
+.how-my-courses-works__card{
+    height: 200px;
+    max-width: 320px;
+    border-radius: 10px;
+    border: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: $background-dark-light;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+
+    @media(min-width: 440px){
+        max-width: 330px;
+    }
+    @media(min-width: 1024px){
+        max-width: 360px;
+    }
+
+    .anticon svg{
+        font-size: 45px;
+        margin-bottom: 20px;
+        color: rgb(49, 154, 214);
+    }
+
+    .ant-card-meta-detail{
+        .ant-card-meta-title{
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .ant-card-meta-description{
+            color: $primary-color-dark;
+        }
     }
 }

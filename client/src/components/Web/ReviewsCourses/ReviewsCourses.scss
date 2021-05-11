@@ -1,0 +1,69 @@
+@import "../../../index.scss";
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto !important;
+}
+
+.review-courses{
+    margin-top: 50px 0;
+    margin-bottom: 100px;
+
+    &__title{
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2{
+            color: $font-light;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+}
+.row-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 20px;
+
+    @media (min-width: 440px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.review-courses__card{
+    background-color: rgb(46, 46, 70);
+    border: 0;
+    max-width:380px;
+
+    .ant-card-body{
+        p{
+            color:rgb(250, 250, 250);
+        }
+        .ant-card-meta{
+            display: flex;
+            align-items: center;
+
+            .ant-card-meta-avatar{
+                .ant-avatar{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+           .ant-card-meta-title{
+            color:rgb(240, 240, 240);
+            font-weight: bold;
+            margin-bottom: 0;
+           }
+           .ant-card-meta-description{
+            color:rgb(160, 160, 160);
+           }
+        }
+    }
+}

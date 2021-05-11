@@ -2,8 +2,7 @@ import React from 'react';
 import MainBanner from "../components/Web/MainBanner";
 import HomeCourses from "../components/Web/HomeCourses";
 import HowMyCoursesWorks from "../components/Web/HowMyCoursesWorks";
-
-import {Row, Col} from "antd";
+import ReviewCourses from "../components/Web/ReviewsCourses";
 
 export default function Home(){
     return (
@@ -11,6 +10,7 @@ export default function Home(){
             <MainBanner/>
             <HomeCourses/>
             <HowMyCoursesWorks/>
+            <ReviewCourses/>
         </>
     );
 } 

@@ -1,0 +1,17 @@
+.my-info img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.my-info h4 {
+  margin-bottom: 20px;
+  color: #8698a5;
+}
+
+.my-info .social-link {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=MyInfo.css.map */

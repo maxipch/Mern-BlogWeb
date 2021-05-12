@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,QADI,CACJ,GAAG,CAAA;EACC,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,IAAI;CACtB;;AAJL,AAMI,QANI,CAMJ,EAAE,CAAA;EACE,aAAa,EAAE,IAAI;EACnB,KAAK,EELQ,OAAO;CFMvB;;AATL,AAWI,QAXI,CAWJ,YAAY,CAAA;EACR,eAAe,EAAE,UAAU;EAC3B,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "MyInfo.scss",
+        "../../../../scss/index.scss",
+        "../../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "MyInfo.css"
+}

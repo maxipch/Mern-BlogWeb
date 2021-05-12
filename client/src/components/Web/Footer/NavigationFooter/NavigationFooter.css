@@ -1,0 +1,33 @@
+.navigation-footer__item h3 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navigation-footer__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.navigation-footer__items .anticon {
+  padding-right: 10px;
+}
+
+.navigation-footer__items ul {
+  padding: 0;
+}
+
+.navigation-footer__items ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.navigation-footer__items ul a {
+  color: #8698a5;
+}
+
+.navigation-footer__items ul a:hover {
+  color: #0098d3;
+}
+/*# sourceMappingURL=NavigationFooter.css.map */

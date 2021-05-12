@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,WADO,CACP,EAAE,CAAA;EACE,KAAK,EEKA,IAAI;EFJT,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;CACtB;;AAEA,AACG,iBADG,CACH,KAAK,CAAA;EACD,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI;CAClB;;AAJJ,AAMG,iBANG,CAMH,MAAM,CAAA;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "Newsletter.scss",
+        "../../../scss/index.scss",
+        "../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "Newsletter.css"
+}

@@ -1,0 +1,37 @@
+@import "../../../scss/index.scss";
+
+.footer{
+    background-color: $background-dark-web;
+    border-top: 3px solid $primary-color;
+    max-height: 200px;
+    padding-top: 20px;
+
+
+    &__cont{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__col{
+        color:#fff;
+    }
+}
+
+.footer-copy{
+    background-color: $background-dark-web;
+    &__cont{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__item{
+        p{
+            text-align: center;
+            color: rgb(190, 190, 190);
+        }
+    }
+}

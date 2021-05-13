@@ -15,9 +15,13 @@
 
         h2{
             color: $font-light;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: bold;
             text-transform: uppercase;
+
+            @media (min-width: 440px){
+                font-size: 28px;
+            }
         }
     }
 }
